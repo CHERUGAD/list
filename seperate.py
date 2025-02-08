@@ -23,3 +23,14 @@ for i in list1:
         list3.append(list1[i])
     i+=1
 print(list2,list3)
+
+
+list1=[1,-1,2,-2]
+list2=[]
+list3=[]
+for i in list1:
+    if i<0:
+        list2.append(i)
+    else:
+        list3.append(i)
+print(list2,list3)
